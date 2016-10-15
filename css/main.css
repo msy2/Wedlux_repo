@@ -1,0 +1,242 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+/* ------Main Navigation Bar-------*/
+
+#main_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A9A9A9;
+}
+
+#main_nav li  {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+#main_nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    
+}
+
+#main_nav li a:hover:not(.active) {
+    background-color: #ADD8E6;
+}
+
+#main_nav .active {
+    background-color: #87CEEB;
+}
+
+/* ------Nav-bar display vertically - Rental Collection--------*/
+ul.side_nav  {
+  font-family: Verdana;
+  font-size:14px;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.side_nav li {
+  display:inline;
+}
+
+ul.side_nav li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  background:#F8F8FF;
+  color:  #808080;
+  border-top:2px solid #F0FFFF;
+  border-right:2px solid #F0FFFF;
+  border-bottom:2px solid #F0FFFF;
+  border-left:2px solid #F0FFFF;
+}
+
+ul.side_nav li a:hover {
+  background-color: #ADD8E6;
+  border-top:2px solid #F0FFFF;
+  border-right:2px solid #F0FFFF;
+  border-bottom:2px solid #F0FFFF;
+  border-left:2px solid #F0FFFF;
+}
+
+.side_nav li a.active {
+    background-color: #808080;
+    color: white;
+}
+
+/* ------section---------- */
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background:#F8F8FF;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  border-top:2px solid #F0FFFF;
+  border-right:2px solid #F0FFFF;
+  border-bottom:2px solid #F0FFFF;
+  border-left:2px solid #F0FFFF;
+
+}
+
+.button-nav:hover, .button-nav:focus {
+  opacity: 0.8;
+  border-top:2px solid #ADD8E6;
+  border-right:2px solid #ADD8E6;
+  border-bottom:2px solid #ADD8E6;
+  border-left:2px solid #ADD8E6;
+}
+
+/* text-link  */
+a.text-link {
+    display:block;
+    text-decoration:none;
+    background-color: #F0FFFF;  /*Azure*/
+    color:#CD5C5C; /*PaleVioletRed */
+    width: 85px;
+    height: 20px;
+    padding-top: 2px;
+    font-weight: 600;
+}
+
+a.text-link:hover{
+    text-decoration:none;
+    opacity: 0.5;
+}
+
+/* Submit button  */
+.submit_button{
+    background-color: #51b8e1; /* skyblue*/
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.submit_button:hover{
+  opacity: 0.8;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+/* 
+  TEXT ELEMENTS -------------------
+*/
+h1 { 
+    display: block;
+    font-size: 2em;
+    color:#66c1e5;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-family:"Quan";
+    font-weight: bold;
+}
+
+/* product list */
+ul.product-list{
+   font-family: Verdana;
+  font-size:14px;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+}
