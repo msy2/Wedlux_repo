@@ -180,7 +180,7 @@ a.text-link {
 
 a.text-link:hover{
     text-decoration:none;
-    opacity: 0.5;
+    opacity: 0.80;
 }
 
 /* Submit button  */
