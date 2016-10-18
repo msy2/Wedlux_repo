@@ -156,6 +156,7 @@ cite {
   border-bottom:2px solid #F0FFFF;
   border-left:2px solid #F0FFFF;
 
+
 }
 
 .button-nav:hover, .button-nav:focus {
@@ -240,3 +241,22 @@ ul.product-list{
   overflow: auto;
 
 }
+/* 
+  image-------------------
+*/
+.module2 img{
+  height: 300px;
+  margin: 5px;
+}
+
+/*.module2 img#img1{
+  height: 300px;
+}
+
+.module2 img#img2{
+   height: 300px;
+}
+.module2 img#img3{
+ 
+  height: 300px;
+}*/
