@@ -107,6 +107,15 @@ a:active, a:hover, a:focus {
 	transition: background-color 0.5s ease-out;
 }
 
+.nav-tools{
+	background-color: #ADD8E6;
+	position:fixed;
+	top:0;
+	padding-top: 12px;
+	right:100px;
+
+}
+
 .bg1 {
 	height: 124px;
 	border: 1px solid #D3D3D3;
@@ -143,13 +152,27 @@ a:active, a:hover, a:focus {
 	background-color: rgb(150,150,150);
 }
 
-section{
+/*section{
 	margin-right: 40px;
 }
 
 
 section #wrap{
 	margin-right: 60px;
+}*/
+
+
+.photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: 370px !important;
+  margin-top: 30px;
+  margin-left: 150px;
+  padding-right: 20px;
+}
+
+.caption-inside {
+	position: relative;
 }
 
 
@@ -157,7 +180,7 @@ section #wrap{
     background:#87CEFA;
    width:100%;
    height:40px;   /* Height of the footer */
-   position:absolute;
+  
    bottom:300;
    left:0;
 }

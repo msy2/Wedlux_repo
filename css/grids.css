@@ -3,8 +3,13 @@
 }
 
 .grid-logbuttonswrapper {
-	width: 25%;
+	width: 15%;
 	float: right;
+}
+
+.grid-tools {
+	width: 100%;
+	float: left;
 }
 
 [class^='grid-col-'] {
