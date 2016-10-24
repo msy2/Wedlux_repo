@@ -1,74 +1,29 @@
-/*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
-*/
-
-body {
-  font-family: sans-serif;
-  padding: 2rem;
+.nav-main {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 10;
 }
 
-section:not([id]) {
-  margin: 1em 0;
-  padding: 1em 0;
-  border-bottom: 0.15em solid #333;
+.nav-login {
+	position:fixed;
+	float:right;
+	top:0;
+	left:10;
+	right:0;
+	z-index: 9;
 }
 
-section h2 {
-  margin-top: 0;
-  margin-bottom: 0.5em;
+.caption-inside {
+	position: relative;
 }
 
-section h3 {
-  margin-bottom: 0;
+.module {
+	padding: 20px;
+	background: white;
 }
 
-section p {
-  margin-top: 0;
-}
-
-nav {
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-  border-bottom: 0.15em solid #333;
-}
-
-nav a:hover, nav a:focus {
-  text-decoration: none;
-}
-/* ------Main Navigation Bar-------*/
-
-#main_nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #A9A9A9;
-}
-
-#main_nav li  {
-    float: left;
-    border-right:1px solid #bbb;
-}
-
-#main_nav li a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    padding: 14px 16px;
-    
-}
-
-#main_nav li a:hover:not(.active) {
-    background-color: #ADD8E6;
-}
-
-#main_nav .active {
-    background-color: #87CEEB;
-}
-
-/* ------Nav-bar display vertically - Rental Collection--------*/
 ul.side_nav  {
   font-family: Verdana;
   font-size:14px;
@@ -109,142 +64,100 @@ ul.side_nav li a:hover {
     color: white;
 }
 
-/* ------section---------- */
-section code {
-  background-color: #EEE;
-  padding: 0.5em 0.75em;
-  display: block;
+
+body {
+	/*font-family: "Quan", Verdana, sans-serif;*/
+	margin: 1rem;
+	font-size: 1.25rem;
 }
 
-ul.citations {
-  margin-left: 0.25em;
-  padding-left: 0.25em;
+h1 {
+	font-size: 3rem;
+	margin-bottom: 0;
 }
 
-ul.citations li {
-  list-style-type: none;
-  margin-left: 0;
-  padding-left: 0;
-  padding-bottom: 1em;
+h2 {
+	font-size: 2.25rem;
+	margin-bottom: 0;
+	width: 100%;
 }
 
-ul.citations li strong {
-  font-weight: normal;
-  font-style: italic;
+h2 {
+	font-size: 1.6rem;
+	margin-bottom: 0;
 }
 
-cite {
-  font-style: normal;
+a {
+	color: rgb(200,0,0);
+	transition: color 0.5s;
 }
 
+a:active, a:hover, a:focus {
+	color: rgb(50,0,0);
+	text-decoration: none;
+}
 
-/* 
-  INTERACTIVE ELEMENTS -------------------
-*/
+.nav-main-item {
+	display: inline-block;
+	color: white;
+	background-color: #ADD8E6;
+	font-size: 1.5rem;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	transition: background-color 0.5s ease-out;
+}
 
-/* Styling for the navigation button */
-.button-nav {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  background:#F8F8FF;
-  border-radius: 0.25em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-  border-top:2px solid #F0FFFF;
-  border-right:2px solid #F0FFFF;
-  border-bottom:2px solid #F0FFFF;
-  border-left:2px solid #F0FFFF;
-
+.bg1 {
+	height: 124px;
+	border: 1px solid #D3D3D3;
+	background-color: #FFF0F5; 
 
 }
 
-.button-nav:hover, .button-nav:focus {
-  opacity: 0.8;
-  border-top:2px solid #ADD8E6;
-  border-right:2px solid #ADD8E6;
-  border-bottom:2px solid #ADD8E6;
-  border-left:2px solid #ADD8E6;
+.bg2 {
+	margin-top: 30px;
+	margin-left: 30px;
+	background-color: #FEDCD2;
+
 }
 
-/* text-link  */
-a.text-link {
-    display:block;
-    text-decoration:none;
-    background-color: #F0FFFF;  /*Azure*/
-    color:#CD5C5C; /*PaleVioletRed */
-    width: 85px;
-    height: 20px;
-    padding-top: 2px;
-    font-weight: 600;
+.bg3 {
+	margin-top: 30px;
+	margin-left: 30px;
+	background-color: #DF744A;
 }
 
-a.text-link:hover{
-    text-decoration:none;
-    opacity: 0.80;
+.bg4 {
+	background-color: #DCB239;
 }
 
-/* Submit button  */
-.submit_button{
-    background-color: #51b8e1; /* skyblue*/
-    border: none;
-    color: white;
-    padding: 8px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
+.bg4 {
+	background-color: #DCB239;
 }
 
-.submit_button:hover{
-  opacity: 0.8;
+.bg4 {
+	background-color: #DCB239;
+}
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+	color: white;
+	background-color: rgb(150,150,150);
+}
+
+section{
+	margin-right: 40px;
 }
 
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    transition: 0.5s;
-    outline: none;
-}
-input[type=text]:focus {
-    border: 3px solid #555;
-}
-/* 
-  TEXT ELEMENTS -------------------
-*/
-h1 { 
-    display: block;
-    font-size: 2em;
-    color:#66c1e5;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-family:"Quan";
-    font-weight: bold;
+section #wrap{
+	margin-right: 60px;
 }
 
-/* product list */
-ul.product-list{
-   font-family: Verdana;
-  font-size:14px;
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
 
-}
-/* 
-  image-------------------
-*/
-.module2 img{
-  height: 300px;
-  margin: 5px;
+.footer {
+    background:#87CEFA;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   position:absolute;
+   bottom:300;
+   left:0;
 }

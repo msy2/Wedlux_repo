@@ -9,7 +9,7 @@
 
 [class^='grid-col-'] {
 	float: left;
-	padding: 0px;
+	padding: 0;
 }
 
 .grid-row:after {
