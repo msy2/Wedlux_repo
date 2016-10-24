@@ -161,14 +161,18 @@ section #wrap{
 	margin-right: 60px;
 }*/
 
-
+img {
+	  height:auto;
+	  max-width: 100%;
+}
 .photos img {
   /* Just in case there are inline attributes */
   /*width: 100% !important;*/
   /*height: 370px !important;*/
-  margin-top: 30px;
-  margin-left: 150px;
-  padding-right: 20px;
+  /*margin-top: 30px;*/
+  /*margin-left: 150px;*/
+  /*padding-right: 20px;*/
+  padding:50px;
 }
 
 .caption-inside {
@@ -187,6 +191,6 @@ section #wrap{
 
 @media screen and (min-width: 480px) {
     img {
-        max-height:370px;
+        /*max-width:370px;*/
     }
 }
